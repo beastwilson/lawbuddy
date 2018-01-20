@@ -14,6 +14,8 @@
 		A40C815E201390C700B65677 /* Law_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C815D201390C700B65677 /* Law_BuddyTests.swift */; };
 		A40C8169201390C700B65677 /* Law_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C8168201390C700B65677 /* Law_BuddyUITests.swift */; };
 		A40C81772013988A00B65677 /* View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C81762013988A00B65677 /* View Controller.swift */; };
+		A4B423952013CF2D005144EE /* TrafficControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B423942013CF2D005144EE /* TrafficControlView.swift */; };
+		A4B423972013CF5B005144EE /* CriminalDefenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B423962013CF5B005144EE /* CriminalDefenceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A40C8168201390C700B65677 /* Law_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Law_BuddyUITests.swift; sourceTree = "<group>"; };
 		A40C816A201390C700B65677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A40C81762013988A00B65677 /* View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View Controller.swift"; sourceTree = "<group>"; };
+		A4B423942013CF2D005144EE /* TrafficControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficControlView.swift; sourceTree = "<group>"; };
+		A4B423962013CF5B005144EE /* CriminalDefenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriminalDefenceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				A40C8146201390C700B65677 /* AppDelegate.swift */,
 				A40C814C201390C700B65677 /* Main.storyboard */,
 				A40C81762013988A00B65677 /* View Controller.swift */,
+				A4B423942013CF2D005144EE /* TrafficControlView.swift */,
+				A4B423962013CF5B005144EE /* CriminalDefenceViewController.swift */,
 				A40C814F201390C700B65677 /* Assets.xcassets */,
 				A40C8151201390C700B65677 /* LaunchScreen.storyboard */,
 				A40C8154201390C700B65677 /* Info.plist */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40C8147201390C700B65677 /* AppDelegate.swift in Sources */,
+				A4B423952013CF2D005144EE /* TrafficControlView.swift in Sources */,
+				A4B423972013CF5B005144EE /* CriminalDefenceViewController.swift in Sources */,
 				A40C81772013988A00B65677 /* View Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
