@@ -231,7 +231,7 @@
         <!--Traffic Violation-->
         <scene sceneID="nBu-oR-FeF">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="tvc-dw-DYF" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="tvc-dw-DYF" customClass="TrafficControlView" customModule="Law_Buddy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BUa-9W-et3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -239,7 +239,7 @@
                             <textView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfr-VV-vnD">
                                 <rect key="frame" x="0.0" y="84" width="375" height="563"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">         Should you fight your traffic ticket?      Before you decide to fight your traffic ticket, there are several questions you should ask yourself:   -Do you believe you have proof the tick is invalid?  -Will paying the fine/dealing with the penalties be less stressful than fighting the court case?  -Will this ticket push you closer to more severe consequences?   -Will the ticket raise your car insurance rate?  -Do you have time/money for a court case?      If after answering these questions you have decided to fight the ticket, you now need to determine the best strategy for fighting the ticket. A traffic lawyer is your best bet and you can find a link to nearby lawyers below, but if you decide to fight the case on your own the most common strategies can be seen below.  -Honest Mistake  -Legally Justified Action e.g. speeding for a medical emmergency.  -Challenge the officers statement of what happened if you have contrary evidence.      These situations can be hard to prove so having a traffic lawyer can be very beneficial.      Traffic Lawyers nearby to your location can be seen by pressing the button below  </mutableString>
+                                <string key="text">         Should you fight your traffic ticket?      Before you decide to fight your traffic ticket, there are several questions you should ask yourself:   -Do you believe you have proof the tick is invalid?  -Will paying the fine/dealing with the penalties be less stressful than fighting the court case?  -Will this ticket push you closer to more severe consequences?   -Will the ticket raise your car insurance rate?  -Do you have time/money for a court case?      If after answering these questions you have decided to fight the ticket, you now need to determine the best strategy for fighting the ticket. A traffic lawyer is your best bet and you can find a link to nearby lawyers below, but if you decide to fight the case on your own the most common strategies can be seen below.  -Honest Mistake  -Legally Justified Action e.g. speeding for a medical emmergency.  -Challenge the officers statement of what happened if you have contrary evidence.      These situations can be hard to prove so having a traffic lawyer can be very beneficial.      Traffic Lawyers nearby to your location can be seen by pressing the button below  </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -320,7 +320,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gfo-ZA-GIN">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -360,7 +360,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uVu-1M-Ln4">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -379,36 +379,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nh7-Rl-446" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="926" y="-2"/>
-        </scene>
-        <!--Traffic Violation-->
-        <scene sceneID="sgG-cx-3gw">
-            <objects>
-                <viewController id="hdQ-Ef-IQd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fVq-1f-imr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Should you contest " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L15-nf-1w1">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="NAM-W6-ZAE" firstAttribute="bottom" secondItem="L15-nf-1w1" secondAttribute="bottom" id="Qmo-64-DCX"/>
-                            <constraint firstItem="NAM-W6-ZAE" firstAttribute="trailing" secondItem="L15-nf-1w1" secondAttribute="trailing" id="VWI-Ih-CAq"/>
-                            <constraint firstItem="L15-nf-1w1" firstAttribute="top" secondItem="NAM-W6-ZAE" secondAttribute="top" id="gY9-7r-Pyh"/>
-                            <constraint firstItem="L15-nf-1w1" firstAttribute="leading" secondItem="NAM-W6-ZAE" secondAttribute="leading" id="oHU-Ah-8cS"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="NAM-W6-ZAE"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Traffic Violation" id="XMv-ih-Y8R"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="exc-xJ-wFk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="926" y="679"/>
         </scene>
     </scenes>
 </document>
