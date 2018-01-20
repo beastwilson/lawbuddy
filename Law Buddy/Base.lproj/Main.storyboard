@@ -231,24 +231,24 @@
         <!--Traffic Violation-->
         <scene sceneID="nBu-oR-FeF">
             <objects>
-                <viewController id="tvc-dw-DYF" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="tvc-dw-DYF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BUa-9W-et3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" contentMode="scaleToFill" delaysContentTouches="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfr-VV-vnD">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <textView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfr-VV-vnD">
+                                <rect key="frame" x="0.0" y="84" width="375" height="563"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Should you fight your traffic ticket?  Before you decide to fight your traffic ticket, there are several questions you should ask yourself:   Do you believe you have proof the tick is invalid?  Will paying the fine/dealing with the penalties be less stressful than fighting the court case?  Will this ticket push you closer to more severe consequences?   Will the ticket raise your car insurance rate?  Do you have time/money for a court case?  If after answering these questions you have decided to fight the ticket, you now need to determine the best strategy for fighting the ticket. A traffic lawyer is your best bet and you can find a link to nearby lawyers below, but if you decide to fight the case on your own the most common strategies can be seen below.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <mutableString key="text">         Should you fight your traffic ticket?      Before you decide to fight your traffic ticket, there are several questions you should ask yourself:   -Do you believe you have proof the tick is invalid?  -Will paying the fine/dealing with the penalties be less stressful than fighting the court case?  -Will this ticket push you closer to more severe consequences?   -Will the ticket raise your car insurance rate?  -Do you have time/money for a court case?      If after answering these questions you have decided to fight the ticket, you now need to determine the best strategy for fighting the ticket. A traffic lawyer is your best bet and you can find a link to nearby lawyers below, but if you decide to fight the case on your own the most common strategies can be seen below.  -Honest Mistake  -Legally Justified Action e.g. speeding for a medical emmergency.  -Challenge the officers statement of what happened if you have contrary evidence.      These situations can be hard to prove so having a traffic lawyer can be very beneficial.      Traffic Lawyers nearby to your location can be seen by pressing the button below  </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="pfr-VV-vnD" firstAttribute="leading" secondItem="SWn-QY-gmH" secondAttribute="leading" id="8GF-4Y-scK"/>
-                            <constraint firstItem="SWn-QY-gmH" firstAttribute="bottom" secondItem="pfr-VV-vnD" secondAttribute="bottom" id="KZM-XS-eEB"/>
-                            <constraint firstItem="pfr-VV-vnD" firstAttribute="top" secondItem="SWn-QY-gmH" secondAttribute="top" id="R1F-EZ-ocy"/>
+                            <constraint firstItem="SWn-QY-gmH" firstAttribute="bottom" secondItem="pfr-VV-vnD" secondAttribute="bottom" constant="20" id="KZM-XS-eEB"/>
+                            <constraint firstItem="pfr-VV-vnD" firstAttribute="top" secondItem="SWn-QY-gmH" secondAttribute="top" constant="20" id="R1F-EZ-ocy"/>
                             <constraint firstItem="SWn-QY-gmH" firstAttribute="trailing" secondItem="pfr-VV-vnD" secondAttribute="trailing" id="Y8H-GY-aVW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SWn-QY-gmH"/>
