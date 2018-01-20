@@ -9,7 +9,7 @@
 import UIKit
 
 
-class ViewController: UITableViewController {
+class ViewController: UITableViewController{
    
     let categories = ["Traffic Violation","Criminal Defense","Accidents and Injuries","Family Law","Employee Rights","Consumer Rights"]
     
@@ -36,7 +36,7 @@ class ViewController: UITableViewController {
         
       //  return cell
    // }
-
+ 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     
         
