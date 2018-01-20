@@ -6,4 +6,13 @@
 //  Copyright © 2018 Jacob Loukota. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+
+class TrafficControlView: UIViewController{
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        self.textView.setContentOffset(CGPoint.zero, animated: false)
+    }
+    
+}
