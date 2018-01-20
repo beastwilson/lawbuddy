@@ -8,10 +8,12 @@
 
 import UIKit
 import MapKit
+import SafariServices
 
 class ViewController: UITableViewController, CLLocationManagerDelegate {
     
     let locationManager = CLLocationManager()
+    let url_front = "http://lawyers.findlaw.com/lawyer/firm/"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +28,7 @@ class ViewController: UITableViewController, CLLocationManagerDelegate {
         
     }
     
-    func getCity() -> String {
+    func getCityState() -> String {
         print("Button tapped")
         
         locationManager.delegate = self
@@ -34,6 +36,7 @@ class ViewController: UITableViewController, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
         
         var city = ""
+        var state = ""
         
         if (CLLocationManager.authorizationStatus() == CLAuthorizationStatus.authorizedWhenInUse) {
             
@@ -46,13 +49,18 @@ class ViewController: UITableViewController, CLLocationManagerDelegate {
                 placeMark = placemarks?[0]
                 
                 city = placeMark.locality!
+                state = placeMark.administrativeArea!
             })
         }
-        return formatCity(city)
+        return formatPlace(city) + "/" + formatPlace(state)
     }
     
-    func formatCity(_ city : String) -> String {
-        return city.lowercased().replacingOccurrences(of: " ", with: "-")
+    func formatPlace(_ place : String) -> String {
+        return place.lowercased().replacingOccurrences(of: " ", with: "-")
+    }
+    func openURL () {
+        let url = URL(string: url_front + "family-law/" + getCityState())
+        let svc = SFSafariViewController(url: url!)
+        present(svc, animated: true, completion: nil)
     }
 }
-
