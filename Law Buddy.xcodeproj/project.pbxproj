@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A40C8147201390C700B65677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C8146201390C700B65677 /* AppDelegate.swift */; };
-		A40C8149201390C700B65677 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C8148201390C700B65677 /* FirstViewController.swift */; };
-		A40C814B201390C700B65677 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C814A201390C700B65677 /* SecondViewController.swift */; };
 		A40C814E201390C700B65677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40C814C201390C700B65677 /* Main.storyboard */; };
 		A40C8150201390C700B65677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40C814F201390C700B65677 /* Assets.xcassets */; };
 		A40C8153201390C700B65677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40C8151201390C700B65677 /* LaunchScreen.storyboard */; };
 		A40C815E201390C700B65677 /* Law_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C815D201390C700B65677 /* Law_BuddyTests.swift */; };
 		A40C8169201390C700B65677 /* Law_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C8168201390C700B65677 /* Law_BuddyUITests.swift */; };
+		A40C81772013988A00B65677 /* View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C81762013988A00B65677 /* View Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +36,6 @@
 /* Begin PBXFileReference section */
 		A40C8143201390C700B65677 /* Law Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Law Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40C8146201390C700B65677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A40C8148201390C700B65677 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A40C814A201390C700B65677 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A40C814D201390C700B65677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A40C814F201390C700B65677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A40C8152201390C700B65677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +46,7 @@
 		A40C8164201390C700B65677 /* Law BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Law BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40C8168201390C700B65677 /* Law_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Law_BuddyUITests.swift; sourceTree = "<group>"; };
 		A40C816A201390C700B65677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40C81762013988A00B65677 /* View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View Controller.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				A40C8146201390C700B65677 /* AppDelegate.swift */,
-				A40C8148201390C700B65677 /* FirstViewController.swift */,
-				A40C814A201390C700B65677 /* SecondViewController.swift */,
 				A40C814C201390C700B65677 /* Main.storyboard */,
+				A40C81762013988A00B65677 /* View Controller.swift */,
 				A40C814F201390C700B65677 /* Assets.xcassets */,
 				A40C8151201390C700B65677 /* LaunchScreen.storyboard */,
 				A40C8154201390C700B65677 /* Info.plist */,
@@ -262,9 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40C814B201390C700B65677 /* SecondViewController.swift in Sources */,
 				A40C8147201390C700B65677 /* AppDelegate.swift in Sources */,
-				A40C8149201390C700B65677 /* FirstViewController.swift in Sources */,
+				A40C81772013988A00B65677 /* View Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
