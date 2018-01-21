@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "169px-Advokat,_Engelsk_advokatdräkt,_Nordisk_familjebok.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "423px-Advokat,_Engelsk_advokatdräkt,_Nordisk_familjebok.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "Advokat,_Engelsk_advokatdräkt,_Nordisk_familjebok.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

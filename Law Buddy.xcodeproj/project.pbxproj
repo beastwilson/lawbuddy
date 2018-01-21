@@ -11,11 +11,12 @@
 		A40C814E201390C700B65677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40C814C201390C700B65677 /* Main.storyboard */; };
 		A40C8150201390C700B65677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40C814F201390C700B65677 /* Assets.xcassets */; };
 		A40C8153201390C700B65677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40C8151201390C700B65677 /* LaunchScreen.storyboard */; };
-		A40C815E201390C700B65677 /* Law_BuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C815D201390C700B65677 /* Law_BuddyTests.swift */; };
-		A40C8169201390C700B65677 /* Law_BuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C8168201390C700B65677 /* Law_BuddyUITests.swift */; };
-		A40C81772013988A00B65677 /* View Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C81762013988A00B65677 /* View Controller.swift */; };
-		A4B423952013CF2D005144EE /* TrafficControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B423942013CF2D005144EE /* TrafficControlView.swift */; };
-		A4B423972013CF5B005144EE /* CriminalDefenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B423962013CF5B005144EE /* CriminalDefenceViewController.swift */; };
+		A40C81772013988A00B65677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40C81762013988A00B65677 /* ViewController.swift */; };
+		A42817FC20146B4A0045C846 /* CriminalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42817FB20146B4A0045C846 /* CriminalViewController.swift */; };
+		A428180020146B860045C846 /* FamilyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42817FF20146B860045C846 /* FamilyViewController.swift */; };
+		A428180220146CE40045C846 /* AccidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A428180120146CE40045C846 /* AccidentViewController.swift */; };
+		A428180420146D6D0045C846 /* WagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A428180320146D6D0045C846 /* WagesViewController.swift */; };
+		A4B423952013CF2D005144EE /* TrafficView.Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B423942013CF2D005144EE /* TrafficView.Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,14 +44,13 @@
 		A40C8152201390C700B65677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A40C8154201390C700B65677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A40C8159201390C700B65677 /* Law BuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Law BuddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A40C815D201390C700B65677 /* Law_BuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Law_BuddyTests.swift; sourceTree = "<group>"; };
-		A40C815F201390C700B65677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A40C8164201390C700B65677 /* Law BuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Law BuddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A40C8168201390C700B65677 /* Law_BuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Law_BuddyUITests.swift; sourceTree = "<group>"; };
-		A40C816A201390C700B65677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A40C81762013988A00B65677 /* View Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View Controller.swift"; sourceTree = "<group>"; };
-		A4B423942013CF2D005144EE /* TrafficControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficControlView.swift; sourceTree = "<group>"; };
-		A4B423962013CF5B005144EE /* CriminalDefenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriminalDefenceViewController.swift; sourceTree = "<group>"; };
+		A40C81762013988A00B65677 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A42817FB20146B4A0045C846 /* CriminalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriminalViewController.swift; sourceTree = "<group>"; };
+		A42817FF20146B860045C846 /* FamilyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyViewController.swift; sourceTree = "<group>"; };
+		A428180120146CE40045C846 /* AccidentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccidentViewController.swift; sourceTree = "<group>"; };
+		A428180320146D6D0045C846 /* WagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WagesViewController.swift; sourceTree = "<group>"; };
+		A4B423942013CF2D005144EE /* TrafficView.Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficView.Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				A40C8145201390C700B65677 /* Law Buddy */,
-				A40C815C201390C700B65677 /* Law BuddyTests */,
-				A40C8167201390C700B65677 /* Law BuddyUITests */,
 				A40C8144201390C700B65677 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,32 +101,17 @@
 			children = (
 				A40C8146201390C700B65677 /* AppDelegate.swift */,
 				A40C814C201390C700B65677 /* Main.storyboard */,
-				A40C81762013988A00B65677 /* View Controller.swift */,
-				A4B423942013CF2D005144EE /* TrafficControlView.swift */,
-				A4B423962013CF5B005144EE /* CriminalDefenceViewController.swift */,
+				A40C81762013988A00B65677 /* ViewController.swift */,
+				A4B423942013CF2D005144EE /* TrafficView.Controller.swift */,
+				A42817FB20146B4A0045C846 /* CriminalViewController.swift */,
+				A42817FF20146B860045C846 /* FamilyViewController.swift */,
+				A428180120146CE40045C846 /* AccidentViewController.swift */,
+				A428180320146D6D0045C846 /* WagesViewController.swift */,
 				A40C814F201390C700B65677 /* Assets.xcassets */,
 				A40C8151201390C700B65677 /* LaunchScreen.storyboard */,
 				A40C8154201390C700B65677 /* Info.plist */,
 			);
 			path = "Law Buddy";
-			sourceTree = "<group>";
-		};
-		A40C815C201390C700B65677 /* Law BuddyTests */ = {
-			isa = PBXGroup;
-			children = (
-				A40C815D201390C700B65677 /* Law_BuddyTests.swift */,
-				A40C815F201390C700B65677 /* Info.plist */,
-			);
-			path = "Law BuddyTests";
-			sourceTree = "<group>";
-		};
-		A40C8167201390C700B65677 /* Law BuddyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A40C8168201390C700B65677 /* Law_BuddyUITests.swift */,
-				A40C816A201390C700B65677 /* Info.plist */,
-			);
-			path = "Law BuddyUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +249,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40C8147201390C700B65677 /* AppDelegate.swift in Sources */,
-				A4B423952013CF2D005144EE /* TrafficControlView.swift in Sources */,
-				A4B423972013CF5B005144EE /* CriminalDefenceViewController.swift in Sources */,
-				A40C81772013988A00B65677 /* View Controller.swift in Sources */,
+				A4B423952013CF2D005144EE /* TrafficView.Controller.swift in Sources */,
+				A42817FC20146B4A0045C846 /* CriminalViewController.swift in Sources */,
+				A428180220146CE40045C846 /* AccidentViewController.swift in Sources */,
+				A428180420146D6D0045C846 /* WagesViewController.swift in Sources */,
+				A40C81772013988A00B65677 /* ViewController.swift in Sources */,
+				A428180020146B860045C846 /* FamilyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40C815E201390C700B65677 /* Law_BuddyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40C8169201390C700B65677 /* Law_BuddyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
