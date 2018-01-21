@@ -88,7 +88,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="81.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Consumer Rights" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SMI-as-XJo">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Family Law" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SMI-as-XJo">
                                                     <rect key="frame" x="16" y="0.0" width="343" height="81.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
@@ -97,6 +97,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="4WS-C7-3b4" kind="show" id="UGb-GA-FIn"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UITableViewCell" textLabel="mNo-H0-zX5" rowHeight="82" style="IBUITableViewCellStyleDefault" id="plV-Yy-RDl">
                                         <rect key="frame" x="0.0" y="328" width="375" height="82"/>
@@ -115,27 +118,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="zh2-jM-Yxw" kind="show" id="gKx-zH-kZV"/>
-                                        </connections>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UITableViewCell" textLabel="2iQ-0Z-ghA" rowHeight="82" style="IBUITableViewCellStyleDefault" id="eT6-uN-FBN">
-                                        <rect key="frame" x="0.0" y="410" width="375" height="82"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eT6-uN-FBN" id="p09-8v-ARe">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="81.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Family Law" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2iQ-0Z-ghA">
-                                                    <rect key="frame" x="16" y="0.0" width="343" height="81.5"/>
-                                                    <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="74J-eS-nZ9" kind="show" id="UoM-5R-10B"/>
+                                            <segue destination="74J-eS-nZ9" kind="show" id="Fk5-w6-UXn"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -152,7 +135,7 @@
             </objects>
             <point key="canvasLocation" x="5.5999999999999996" y="237.93103448275863"/>
         </scene>
-        <!--Family Law-->
+        <!--Employee Rights-->
         <scene sceneID="nKg-ms-a3r">
             <objects>
                 <tableViewController id="74J-eS-nZ9" customClass="ViewController" customModule="Law_Buddy" sceneMemberID="viewController">
@@ -170,7 +153,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="81.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Adoption" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AKS-0S-UKp">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Harrasment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AKS-0S-UKp">
                                                     <rect key="frame" x="16" y="0.0" width="343" height="81.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
@@ -179,6 +162,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Rmb-P0-0dB" kind="show" id="VCI-QA-POA"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UITableViewCell" textLabel="ABK-Yd-Ss6" rowHeight="82" style="IBUITableViewCellStyleDefault" id="udv-G1-Cix">
                                         <rect key="frame" x="0.0" y="82" width="375" height="82"/>
@@ -187,7 +173,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="81.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Divorce" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ABK-Yd-Ss6">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Wages and Benefits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ABK-Yd-Ss6">
                                                     <rect key="frame" x="16" y="0.0" width="343" height="81.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
@@ -196,6 +182,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="pFf-km-gnL" kind="show" id="qpe-po-lTl"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="UITableViewCell" textLabel="7Mj-BC-aSH" rowHeight="82" style="IBUITableViewCellStyleDefault" id="q66-lc-Qcw">
                                         <rect key="frame" x="0.0" y="164" width="375" height="82"/>
@@ -204,7 +193,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="81.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Custody" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7Mj-BC-aSH">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Workplace Safety" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7Mj-BC-aSH">
                                                     <rect key="frame" x="16" y="0.0" width="343" height="81.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="27"/>
@@ -213,6 +202,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="9Nr-Up-3NP" kind="show" id="pQ6-TD-MSE"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -222,11 +214,11 @@
                             <outlet property="delegate" destination="74J-eS-nZ9" id="LqG-YT-n7D"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Family Law" id="Zbv-PY-Rl6"/>
+                    <navigationItem key="navigationItem" title="Employee Rights" id="Zbv-PY-Rl6"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cdo-BA-xYt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6" y="1159"/>
+            <point key="canvasLocation" x="771" y="266"/>
         </scene>
         <!--Traffic Violation-->
         <scene sceneID="nBu-oR-FeF">
@@ -237,19 +229,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfr-VV-vnD">
-                                <rect key="frame" x="0.0" y="84" width="375" height="563"/>
+                                <rect key="frame" x="0.0" y="84" width="375" height="538"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">         Should you fight your traffic ticket?      Before you decide to fight your traffic ticket, there are several questions you should ask yourself:   -Do you believe you have proof the tick is invalid?  -Will paying the fine/dealing with the penalties be less stressful than fighting the court case?  -Will this ticket push you closer to more severe consequences?   -Will the ticket raise your car insurance rate?  -Do you have time/money for a court case?      If after answering these questions you have decided to fight the ticket, you now need to determine the best strategy for fighting the ticket. A traffic lawyer is your best bet and you can find a link to nearby lawyers below, but if you decide to fight the case on your own the most common strategies can be seen below.  -Honest Mistake  -Legally Justified Action e.g. speeding for a medical emmergency.  -Challenge the officers statement of what happened if you have contrary evidence.      These situations can be hard to prove so having a traffic lawyer can be very beneficial.      Traffic Lawyers nearby to your location can be seen by pressing the button below  </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGv-EK-WLo">
+                                <rect key="frame" x="124" y="630" width="127" height="30"/>
+                                <state key="normal" title="Find A Lawyer"/>
+                                <connections>
+                                    <action selector="viewTapped:" destination="tvc-dw-DYF" eventType="touchUpInside" id="xvO-Ym-3ip"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="pfr-VV-vnD" firstAttribute="leading" secondItem="SWn-QY-gmH" secondAttribute="leading" id="8GF-4Y-scK"/>
-                            <constraint firstItem="SWn-QY-gmH" firstAttribute="bottom" secondItem="pfr-VV-vnD" secondAttribute="bottom" constant="20" id="KZM-XS-eEB"/>
+                            <constraint firstItem="aGv-EK-WLo" firstAttribute="leading" secondItem="SWn-QY-gmH" secondAttribute="leading" constant="124" id="JFy-Hg-PqW"/>
+                            <constraint firstItem="SWn-QY-gmH" firstAttribute="bottom" secondItem="pfr-VV-vnD" secondAttribute="bottom" constant="45" id="KZM-XS-eEB"/>
+                            <constraint firstItem="aGv-EK-WLo" firstAttribute="centerX" secondItem="pfr-VV-vnD" secondAttribute="centerX" id="PJ3-jm-zb5"/>
                             <constraint firstItem="pfr-VV-vnD" firstAttribute="top" secondItem="SWn-QY-gmH" secondAttribute="top" constant="20" id="R1F-EZ-ocy"/>
                             <constraint firstItem="SWn-QY-gmH" firstAttribute="trailing" secondItem="pfr-VV-vnD" secondAttribute="trailing" id="Y8H-GY-aVW"/>
+                            <constraint firstItem="aGv-EK-WLo" firstAttribute="top" secondItem="pfr-VV-vnD" secondAttribute="bottom" constant="8" symbolic="YES" id="ojm-sU-Pds"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SWn-QY-gmH"/>
                     </view>
@@ -257,7 +259,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y94-sP-6Dn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="927" y="-2038"/>
+            <point key="canvasLocation" x="855" y="-2041"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="XZe-fx-jEq">
@@ -278,10 +280,10 @@
             </objects>
             <point key="canvasLocation" x="-761" y="238"/>
         </scene>
-        <!--Traffic Violation-->
+        <!--Criminal Defense-->
         <scene sceneID="NPv-Sf-UIa">
             <objects>
-                <viewController id="gaH-aL-4Ws" sceneMemberID="viewController">
+                <viewController id="gaH-aL-4Ws" customClass="CriminalDefenceViewController" customModule="Law_Buddy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wst-N2-zk5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -289,29 +291,40 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5sK-NT-G4e">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <string key="text">    If you are charged with a criminal offense you should speak with a lawyer. If you cannot provide a lawyer one will be provied for you. To find local criminal defence lawyers press the button below.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ADy-PW-gwb">
+                                <rect key="frame" x="124" y="617" width="127" height="30"/>
+                                <state key="normal" title="Find A Lawyer"/>
+                                <connections>
+                                    <action selector="viewTapped:" destination="tvc-dw-DYF" eventType="touchUpInside" id="hgn-2r-hSR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ADy-PW-gwb" secondAttribute="bottom" constant="20" symbolic="YES" id="5sU-9s-hJr"/>
                             <constraint firstItem="j1u-L1-u37" firstAttribute="bottom" secondItem="5sK-NT-G4e" secondAttribute="bottom" id="OSX-Hp-cZm"/>
+                            <constraint firstItem="ADy-PW-gwb" firstAttribute="centerX" secondItem="5sK-NT-G4e" secondAttribute="centerX" id="ac5-Me-bph"/>
+                            <constraint firstItem="ADy-PW-gwb" firstAttribute="leading" secondItem="j1u-L1-u37" secondAttribute="leading" constant="124" id="cPw-gN-nnC"/>
                             <constraint firstItem="5sK-NT-G4e" firstAttribute="leading" secondItem="j1u-L1-u37" secondAttribute="leading" id="ePG-ko-GTy"/>
                             <constraint firstItem="5sK-NT-G4e" firstAttribute="top" secondItem="j1u-L1-u37" secondAttribute="top" id="ehp-Yv-gL1"/>
                             <constraint firstItem="j1u-L1-u37" firstAttribute="trailing" secondItem="5sK-NT-G4e" secondAttribute="trailing" id="wJY-fj-bs1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="j1u-L1-u37"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Traffic Violation" id="GBn-Xj-x7y"/>
+                    <navigationItem key="navigationItem" title="Criminal Defense" id="GBn-Xj-x7y"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aJv-uj-Uvj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="926" y="-1345"/>
+            <point key="canvasLocation" x="926" y="-1283"/>
         </scene>
-        <!--Traffic Violation-->
+        <!--Accidents and Injuries-->
         <scene sceneID="0b8-Sd-Cx5">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w5n-WX-lx1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="dKI-2e-8dB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jqe-dW-ydU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -320,65 +333,190 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gfo-ZA-GIN">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <mutableString key="text">     After an injury, most people are in shock and are unlikely to think about their legal rights and responsibilities. Below are some simple steps that will make it much easier for you if you decide to sue later.    -Take notes of everything that happens  -Take photos and keep evidence  -Obtain the police report  And of course meeting with an attorney is the most important step. You can find nearby injury lawyers by clicking the button below. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ddu-rY-3Fh">
-                                <rect key="frame" x="150" y="568" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SnH-ew-sa6">
+                                <rect key="frame" x="124" y="617" width="127" height="30"/>
+                                <state key="normal" title="Find A Lawyer"/>
                                 <connections>
-                                    <action selector="button:" destination="eVF-TQ-vaF" eventType="touchDown" id="RuR-QS-uYp"/>
+                                    <action selector="viewTapped:" destination="tvc-dw-DYF" eventType="touchUpInside" id="Fdi-EI-vg1"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="7TN-PU-mUU" firstAttribute="bottom" secondItem="Gfo-ZA-GIN" secondAttribute="bottom" id="2so-7L-XWW"/>
+                            <constraint firstAttribute="bottom" secondItem="SnH-ew-sa6" secondAttribute="bottom" constant="20" symbolic="YES" id="6Xx-Lc-SyO"/>
+                            <constraint firstItem="SnH-ew-sa6" firstAttribute="leading" secondItem="7TN-PU-mUU" secondAttribute="leading" constant="124" id="Abc-Se-JJ4"/>
                             <constraint firstItem="Gfo-ZA-GIN" firstAttribute="top" secondItem="7TN-PU-mUU" secondAttribute="top" id="Kmq-3A-Wrp"/>
                             <constraint firstItem="Gfo-ZA-GIN" firstAttribute="leading" secondItem="7TN-PU-mUU" secondAttribute="leading" id="Ny6-Ik-Nnd"/>
+                            <constraint firstItem="SnH-ew-sa6" firstAttribute="centerX" secondItem="Gfo-ZA-GIN" secondAttribute="centerX" id="QZx-za-P1Q"/>
                             <constraint firstItem="7TN-PU-mUU" firstAttribute="trailing" secondItem="Gfo-ZA-GIN" secondAttribute="trailing" id="uPr-Nx-X1w"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7TN-PU-mUU"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Traffic Violation" id="TpF-gs-9pP"/>
+                    <navigationItem key="navigationItem" title="Accidents and Injuries" id="TpF-gs-9pP"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="w5n-WX-lx1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="eVF-TQ-vaF" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="926" y="-690"/>
+            <point key="canvasLocation" x="1349" y="-2040"/>
         </scene>
-        <!--Traffic Violation-->
-        <scene sceneID="KNs-bs-uSm">
+        <!--Family Law-->
+        <scene sceneID="rYD-84-eV6">
             <objects>
-                <viewController id="zh2-jM-Yxw" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ajv-dY-ViJ">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="4WS-C7-3b4" customClass="TrafficControlView" customModule="Law_Buddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zCp-xb-jzm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uVu-1M-Ln4">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <textView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZZ-kx-09Q">
+                                <rect key="frame" x="0.0" y="64" width="375" height="558"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="558" id="8pf-fZ-3XN"/>
+                                </constraints>
+                                <mutableString key="text">    In most family law situations such as divorce and custody battles, your best option is certainly to meet with a lawyer.       However other general advice is also very useful. Make sure to keep records on everything you can and get agreements in writing. Family law lawyers nearby you can be found by pressing the button below.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQM-CP-Ktv">
+                                <rect key="frame" x="124" y="630" width="127" height="30"/>
+                                <state key="normal" title="Find A Lawyer"/>
+                                <connections>
+                                    <action selector="viewTapped:" destination="4WS-C7-3b4" eventType="touchUpInside" id="n1I-Mb-ixp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HQM-CP-Ktv" firstAttribute="leading" secondItem="RhV-cd-ShP" secondAttribute="leading" constant="124" id="Bfe-N0-SQS"/>
+                            <constraint firstItem="HQM-CP-Ktv" firstAttribute="top" secondItem="nZZ-kx-09Q" secondAttribute="bottom" constant="8" symbolic="YES" id="M25-V2-WW6"/>
+                            <constraint firstItem="nZZ-kx-09Q" firstAttribute="centerX" secondItem="HQM-CP-Ktv" secondAttribute="centerX" id="Mok-Ve-0mv"/>
+                            <constraint firstItem="nZZ-kx-09Q" firstAttribute="top" secondItem="RhV-cd-ShP" secondAttribute="top" id="ZqR-gM-xHW"/>
+                            <constraint firstItem="nZZ-kx-09Q" firstAttribute="leading" secondItem="zCp-xb-jzm" secondAttribute="leading" id="cXR-tZ-TbB"/>
+                            <constraint firstAttribute="trailing" secondItem="nZZ-kx-09Q" secondAttribute="trailing" id="ulc-a2-a7W"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RhV-cd-ShP"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Family Law" id="r7r-Go-ATv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QP7-S8-ASu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1349" y="-1284"/>
+        </scene>
+        <!--Wages and Benefits-->
+        <scene sceneID="fab-Fy-Uzb">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="pFf-km-gnL" customClass="TrafficControlView" customModule="Law_Buddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hHp-o3-2ti">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7km-Dn-GWe">
+                                <rect key="frame" x="0.0" y="84" width="375" height="538"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">A variety of protections exist for employment wages and benefits including protections for maximum shift length, overtime rules, and mandatory breaks.  Other protections exist for health care and reitrement benefits. Workers time off is also protected by the FMLA if a worker needs time off because of a pregnancy or sickness. If you have any questions about employment law press the button below and find an employment attorney to speak to. Often you can be paid back wages/benefits if you have been slighted in the past.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0d8-HM-1Gr">
+                                <rect key="frame" x="124" y="630" width="127" height="30"/>
+                                <state key="normal" title="Find A Lawyer"/>
+                                <connections>
+                                    <action selector="viewTapped:" destination="pFf-km-gnL" eventType="touchUpInside" id="aOy-gB-GCP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0d8-HM-1Gr" firstAttribute="top" secondItem="7km-Dn-GWe" secondAttribute="bottom" constant="8" symbolic="YES" id="8zg-bq-jTl"/>
+                            <constraint firstItem="7km-Dn-GWe" firstAttribute="leading" secondItem="YKt-Sg-dXd" secondAttribute="leading" id="R1y-0a-7xi"/>
+                            <constraint firstItem="YKt-Sg-dXd" firstAttribute="bottom" secondItem="7km-Dn-GWe" secondAttribute="bottom" constant="45" id="fQA-d2-7YO"/>
+                            <constraint firstItem="YKt-Sg-dXd" firstAttribute="trailing" secondItem="7km-Dn-GWe" secondAttribute="trailing" id="oeR-5t-2Jl"/>
+                            <constraint firstItem="7km-Dn-GWe" firstAttribute="top" secondItem="YKt-Sg-dXd" secondAttribute="top" constant="20" id="vrZ-CH-ey4"/>
+                            <constraint firstItem="0d8-HM-1Gr" firstAttribute="centerX" secondItem="7km-Dn-GWe" secondAttribute="centerX" id="w0w-fY-CxU"/>
+                            <constraint firstItem="0d8-HM-1Gr" firstAttribute="leading" secondItem="YKt-Sg-dXd" secondAttribute="leading" constant="124" id="yT6-vg-YAV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YKt-Sg-dXd"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Wages and Benefits" id="KSr-7F-dz8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0dS-ym-Am7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="794" y="1250"/>
+        </scene>
+        <!--Harrasment-->
+        <scene sceneID="MnE-WV-yRz">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Rmb-P0-0dB" customClass="TrafficControlView" customModule="Law_Buddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rBD-Uk-3Bd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nfb-10-8B0">
+                                <rect key="frame" x="0.0" y="84" width="375" height="538"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">    Many times those who are harrased in the workplace feel powerless and unable to do anything. However there are often many actions they can take. First and foremost, many companies have a reporting policy in place through HR. If this proves innefective however you should file reports with state and local agencies, this usually means contacting your EEOC office.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gm-fi-sUR">
+                                <rect key="frame" x="124" y="630" width="127" height="30"/>
+                                <state key="normal" title="Find A Lawyer"/>
+                                <connections>
+                                    <action selector="viewTapped:" destination="Rmb-P0-0dB" eventType="touchUpInside" id="4wS-FQ-Mzx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2gm-fi-sUR" firstAttribute="leading" secondItem="Kvr-Wu-NdM" secondAttribute="leading" constant="124" id="6zD-7Z-D6R"/>
+                            <constraint firstItem="Nfb-10-8B0" firstAttribute="leading" secondItem="Kvr-Wu-NdM" secondAttribute="leading" id="DkS-ce-UfW"/>
+                            <constraint firstItem="Kvr-Wu-NdM" firstAttribute="trailing" secondItem="Nfb-10-8B0" secondAttribute="trailing" id="RMl-BO-rbG"/>
+                            <constraint firstItem="Nfb-10-8B0" firstAttribute="top" secondItem="Kvr-Wu-NdM" secondAttribute="top" constant="20" id="SdZ-v2-eCG"/>
+                            <constraint firstItem="Kvr-Wu-NdM" firstAttribute="bottom" secondItem="Nfb-10-8B0" secondAttribute="bottom" constant="45" id="rhl-1B-h1j"/>
+                            <constraint firstItem="2gm-fi-sUR" firstAttribute="centerX" secondItem="Nfb-10-8B0" secondAttribute="centerX" id="tzM-kh-HNS"/>
+                            <constraint firstItem="2gm-fi-sUR" firstAttribute="top" secondItem="Nfb-10-8B0" secondAttribute="bottom" constant="8" symbolic="YES" id="vS6-Fe-GXh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kvr-Wu-NdM"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Harrasment" id="smj-Vb-v7L"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="88a-2o-ikG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89" y="1250"/>
+        </scene>
+        <!--Workplace Safety-->
+        <scene sceneID="zUM-eN-SN8">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="9Nr-Up-3NP" customClass="TrafficControlView" customModule="Law_Buddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Sx-D5-ldX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7r-Go-J1k">
+                                <rect key="frame" x="0.0" y="84" width="375" height="538"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">    Every employee has the right to a reasonably safe workplace environment. This right is protected by the OSH act of 1970 which created OSHA. Outside of the right to a safe workplace employees also have the following rights: -Review doocumentation on illness and injury at a workplace -File a confidential OSHA complaint -Not face retaliation for OSHA complaints </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="uVu-1M-Ln4" firstAttribute="leading" secondItem="7Qg-yL-dP2" secondAttribute="leading" id="2s4-Z6-xBd"/>
-                            <constraint firstItem="7Qg-yL-dP2" firstAttribute="trailing" secondItem="uVu-1M-Ln4" secondAttribute="trailing" id="7Lf-Iv-6Ak"/>
-                            <constraint firstItem="uVu-1M-Ln4" firstAttribute="top" secondItem="7Qg-yL-dP2" secondAttribute="top" id="DjN-vb-uhM"/>
-                            <constraint firstItem="7Qg-yL-dP2" firstAttribute="bottom" secondItem="uVu-1M-Ln4" secondAttribute="bottom" id="O3M-vV-oxN"/>
+                            <constraint firstItem="C7r-Go-J1k" firstAttribute="leading" secondItem="158-YG-5i3" secondAttribute="leading" id="GFS-YB-VK9"/>
+                            <constraint firstItem="158-YG-5i3" firstAttribute="bottom" secondItem="C7r-Go-J1k" secondAttribute="bottom" constant="45" id="Nko-7W-3Eq"/>
+                            <constraint firstItem="158-YG-5i3" firstAttribute="trailing" secondItem="C7r-Go-J1k" secondAttribute="trailing" id="s2c-2S-ZEr"/>
+                            <constraint firstItem="C7r-Go-J1k" firstAttribute="top" secondItem="158-YG-5i3" secondAttribute="top" constant="20" id="wDY-0f-q7Y"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="7Qg-yL-dP2"/>
+                        <viewLayoutGuide key="safeArea" id="158-YG-5i3"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Traffic Violation" id="UhA-rg-gEI"/>
+                    <navigationItem key="navigationItem" title="Workplace Safety" id="Qfi-zf-KwC"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nh7-Rl-446" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ZJ-db-fvI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="926" y="-2"/>
+            <point key="canvasLocation" x="1524" y="1250"/>
         </scene>
     </scenes>
 </document>
